@@ -1,0 +1,138 @@
+   
+/*.test{
+    margin-left: 1000px;
+    border: solid;
+    margin-right: 200;
+    margin-bottom: 100px;
+    background-color: #5B1F1F;
+    width: 300px;
+    height:500px;
+    
+}*/
+/*.main {
+   position: relative;
+}
+
+.div {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+    width: 800px;
+    height:500px;
+   background-color: #5B1F1F;
+}
+button{
+    color: red;
+    
+}
+img {
+    border: 2px solid black;   
+}*/
+#l{
+  
+ width:200;
+ height:100;
+ padding-right: 200px;
+ background: red;
+ padding-right: 100px;
+ top:300px;
+ left: 200px;
+ 
+ 
+  
+}
+#la{
+  
+  margin-right: 100px;
+  
+}
+
+#head{
+   position: absolute;
+  top: 20px;
+  left: 500px;
+  
+}
+
+#container {
+    position: relative;
+    left: 0px;
+    background-position: 10% 20%;
+    
+}
+
+.monkey {
+   position: absolute;
+   top: 500px;
+   left: 600px;
+   width: 100px;
+   height: 110px;
+   /* border:solid;
+   padding: 5px;
+   /*background-color: white;*/
+  
+}
+.snake{
+  position: absolute;
+   top: 420px;
+   left: 600px;
+   width: 58px;
+   height: 65px;
+  
+}
+.giraffe{
+   position: absolute;
+   top: 320px;
+   left: 800px;
+   width: 188px;
+   height: 255px;
+  
+}
+.lion{
+  position: absolute;
+   top: 480px;
+   left: 400px;
+   width: 144px;
+   height: 139px;
+  
+  
+}
+
+
+.lion1{
+  position: absolute;
+   top: 90px;
+   left: 900px;
+   width: 144px;
+   height: 139px;
+ 
+}
+.monkey1{
+   position: absolute;
+   top: 70px;
+   left: 700px;
+  width: 100px;
+   height: 110px;
+  
+}
+.giraffe1{
+  position: absolute;
+   top: 80px;
+   left: 200px;
+   width: 188px;
+   height: 255px;
+  
+  
+}
+.snake1{
+  
+   position: absolute;
+   top: 80px;
+   left: 20px;
+   width: 58px;
+   height: 65px;
+  
+  
+}
+  
+

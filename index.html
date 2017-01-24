@@ -1,0 +1,67 @@
+ 
+
+<html>
+   <head>
+      <title>change picture</title>
+      <link rel="stylesheet" type="text/css" href="css/t.css">
+   </head>
+
+   <body >
+    
+  <div id="container">
+        <div id="head"><div id="x">ahoy put animals on the beach</div>
+        </div>
+		<img src="images/beach.png" width=1300 height=620>
+        
+		
+		<div id="monkey1" class="monkey1">
+  			<img src="images/monkey.png" draggable="true" ondragstart="drag(event)" id="drag1" >
+		</div>
+		<div id="drag1" class="monkey" ondrop="drop1(event)" ondragover="allowDrop(event)">
+			<img src="images/monkey-black.png"  id="drag1" >
+		</div>
+		
+
+
+
+
+		<div id="snake1" class="snake1" >
+			<img src="images/snake.png" width=58 height=72 draggable="true" ondragstart="drag(event)" id="drag2" >
+        	</div>
+		<div id="drag2" class="snake"  ondrop="drop2(event)" ondragover="allowDrop(event)">
+			<img src="images/snake-black.png" id="drag2" width=58 height=72>
+        	</div>
+
+
+		<div id="lion1" class="lion1" >
+			<img src="images/lion.png" width=144 height=139 draggable="true" ondragstart="drag(event)"id="drag3">
+        	</div>
+		 <div id="drag3" class="lion" ondrop="drop3(event)" ondragover="allowDrop(event)">
+			<img src="images/lion-black.png" id="drag3" width=144 height=139>
+       		</div>
+		
+
+		 <div id="giraffe1" class="giraffe1" >
+			<img src="images/giraffe.png" width=188 height=255 draggable="true" ondragstart="drag(event)" id="drag4">
+        	</div>
+        
+        	<div id="drag" class="giraffe" ondrop="drop4(event)" ondragover="allowDrop(event)">
+			<img src="images/giraffe-black.png"  width=188 height=255 id="drag4">
+        	</div>
+        
+       
+        
+        
+      
+		<!--<div id="monkey1" >
+		<img src="images/monkey.png" width=118 height=110 draggable="true" ondragstart="drag(event)">
+        </div>-->
+        
+       
+        
+        
+	  </div>
+    
+	   <script src="js/test.js"></script>
+   </body>
+</html>
